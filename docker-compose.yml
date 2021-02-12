@@ -8,3 +8,4 @@ services:
     tty: true
     volumes:
       - ./app:/root/opt
+    command: python /root/opt/main.py
